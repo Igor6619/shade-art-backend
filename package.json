@@ -1,0 +1,30 @@
+{
+	"name": "shade-art-backend",
+	"version": "1.0.0",
+	"description": "backend проекта shade-art",
+	"homepage": "https://github.com/Igor6619/shade-art-backend#readme",
+	"bugs": {
+		"url": "https://github.com/Igor6619/shade-art-backend/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Igor6619/shade-art-backend.git"
+	},
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"imports": {
+		"#*": "./src/*"
+	},
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js",
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"dotenv-flow": "^4.1.0",
+		"express": "^5.2.1",
+		"mongoose": "^9.4.1",
+		"nodemon": "^3.1.14"
+	}
+}
