@@ -1,0 +1,38 @@
+{
+	"name": "auth.service",
+	"version": "1.0.0",
+	"description": "микросервис авторизации брокер-kafka",
+	"homepage": "https://github.com/Igor6619/auth.service#readme",
+	"bugs": {
+		"url": "https://github.com/Igor6619/auth.service/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Igor6619/auth.service.git"
+	},
+	"license": "ISC",
+	"author": "",
+	"type": "module",
+	"imports": {
+		"#*": "./src/*"
+	},
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js",
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"bcryptjs": "^3.0.3",
+		"bullmq": "^5.80.10",
+		"cookie-parser": "^1.4.7",
+		"cors": "^2.8.6",
+		"dotenv-flow": "^4.1.0",
+		"express": "^5.2.1",
+		"ioredis": "^5.11.1",
+		"jsonwebtoken": "^9.0.3",
+		"mongoose": "^9.4.1",
+		"multer": "^2.1.1",
+		"nodemon": "^3.1.14",
+		"slugify": "^1.6.9"
+	}
+}
